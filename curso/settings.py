@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-*h8w^q_6f*klab9uqs+b%s$^4z+dqc8xucs5d5gm0mxg(lg7tc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -57,7 +57,7 @@ ROOT_URLCONF = 'curso.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
