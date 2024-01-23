@@ -960,7 +960,8 @@ p.mounth_value {
 	ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;		
+		padding-left: 0;	
+		text-align: center;	
 	}
 
 		ul.icons li {
@@ -1403,6 +1404,7 @@ p.mounth_value {
 				font-size: 25px;
 				line-height: 2;
 				color:aqua;
+				text-shadow: 1px 3px 1px white;
 				font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 			}
 
